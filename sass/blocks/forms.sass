@@ -1,0 +1,21 @@
+// Forms
+
+// <div class="input--error">
+//   <span class="input__errorText"></span>
+//   <input />
+// </div>
+
+.input--error
+  input
+    border-color: rgba(255, 0, 0, 0.6)
+
+// Showing text when error is present
+.input__errorText
+  display: none
+  color: red
+  font-size: 1.4rem
+  font-weight: bold
+  text-transform: uppercase
+
+  .input--error &
+    display: block
